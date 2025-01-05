@@ -4,6 +4,9 @@ The following assignment involves developing an AI research agent with the follo
 
 ## Demonstration
 
+You can watch the demonstration of the AI assistant below:
+
+![Demonstration Video](assets/demonstration_AI_assist.mp4)
 
 ## Features and Capabilities
 

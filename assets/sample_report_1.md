@@ -1,45 +1,69 @@
-**Narendra Modi: A Profile**
-==========================
+**Steve Jobs: A Visionary Entrepreneur and Designer**
 
-### **Early Life**
+### Early Life
 
-Narendra Modi was born on September 17, 1950, in Vadnagar, Ahmedabad, Gujarat, India. Initially known as 'Narendrabhai Dadasinhbhai Modi' after his father, he has since adopted the single name Narendra.
+#### **Birth and Adoption**
 
-*   Education: 
-    *   St. Xavier's High School, Ahmedabad
-    *   Hemchandracharya North Gujarati College
-    *   Bachelor of Arts degree in Economics from Gujarat Vidyapith (1965)
-    *   Master of Arts degree in Political Science and Economics from Gujarat Vidyapith (1967)
+Steve Jobs was born on February 24, 1955, in San Francisco, California. He was adopted by Paul and Clara Jobs, a machinist and an accountant, respectively.
 
-### **Political Career**
+#### **Education**
 
-Narendra Modi has been an active participant in politics for over four decades.
+Jobs attended Homestead High School in Cupertino, California, where he met Steve Wozniak, with whom he would later co-found Apple Inc.
 
-*   **Rashtriya Swayamsevak Sangh (RSS):** Joined the RSS in 1971
-*   **Bharatiya Janata Party (BJP):** Became a member of the BJP in 1980
-*   **Gujarat Legislative Assembly:** Elected to the assembly for the first time in 1995 as the leader of the opposition
-*   **Chief Minister of Gujarat:** Served as Chief Minister from 2001 to 2014
-*   **BJP President:** Won national leadership election in 2007 and served as president from 2009-14
-*   **Lok Sabha:** Elected to the Lok Sabha for the first time in 2014, becoming Prime Minister of India
+### Career
 
-### **Notable Achievements**
+#### **Apple Inc. (1974-1980)**
 
-As Prime Minister, Modi has implemented several notable initiatives.
+* Co-founded Apple Computer in Jobs' parents' garage
+* Introduced the Apple I and Apple II personal computers
+* Left Apple after a power struggle with John Sculley
 
-*   **Economic Reforms:** Led the Indian government's efforts to implement economic reforms during the Global Financial Crisis (GFC) in 2008
-*   **"Make in India":** Launched the "Make in India" initiative to promote manufacturing and entrepreneurship in India
-*   **"Digital India":** Introduced the "Digital India" program to improve digital infrastructure and connectivity across India
-*   **Swachh Bharat Abhiyan:** Implemented policies aimed at promoting Swachh Bharat Abhiyan (Clean India Mission) and providing clean water and sanitation to rural areas
+#### **NeXT, Inc. (1985-1996)**
 
-### **Controversies**
+* Developed innovative software technologies such as NeXTSTEP and Rhapsody page layout software
+* Acquired by Apple in 1996, leading to Jobs' return to the company
 
-Narendra Modi has faced several controversies throughout his career.
+### Resurgence at Apple
 
-*   **2002 Gujarat Riots:** Criticized for his handling of the 2002 Gujarat riots, in which hundreds of Muslims were killed
-*   **Hindu Nationalism:** Accused of promoting Hindu nationalism and intolerance through various policies and statements
+#### **Return to Apple (2000-2011)**
 
-### **Personal Life**
+* Served as interim CEO from 2000 to 2003
+* Refocused on innovation and design, introducing new products such as the iPod, iPhone, and iPad
 
-Modi is married to Jashodaben Modi and has two sons, Amit and Raj.
+### Awards and Legacy
 
-*   **Vegetarianism:** Strong advocate for vegetarianism
+#### **Awards**
+
+* National Medal of Technology (1985)
+* Presidential Medal of Freedom (2010)
+* Inducted into the California Hall of Fame (2007)
+* Inducted into the Silicon Valley Hall of Fame (2007)
+
+### Personal Life
+
+#### **Interests**
+
+* Buddhist and Eastern spirituality
+* Avid skier, rock climber, and martial artist
+
+### Death
+
+Steve Jobs died on October 5, 2011, at the age of 56, after a long battle with pancreatic cancer.
+
+**Depictions of Steve Jobs:**
+
+* TV shows:
+	+ "Pirates of Silicon Valley" (1999) - Noah Wyle played the role of Steve Jobs
+	+ "The Simpsons" (2002) - A guest appearance by Bill Campbell, who voiced Steve Jobs in this episode
+* Movies:
+	+ "Steve Jobs" (2015) - A biographical drama film starring Michael Fassbender as Steve Jobs
+	+ "Jobs" (2013) - A biographical drama film starring Ashton Kutcher as Steve Jobs
+	+ "The Other Guys" (2010) - Steve Jobs played a supporting role in this action-comedy film
+* Opera:
+	+ "Revolution of Steve Jobs" - An opera based on the life of Steve Jobs, with performances held at the Sante Fe Opera Festival
+
+**External Links:**
+
+* The Steve Jobs Archive (https://stevejobsarchive.com/)
+* Steve Jobs on IMDb (https://web.archive.org/web/20170222204258/http://www.imdb.com/character/ch0028580/)
+* Noah Wyle's interview with Fortune magazine about playing Steve Jobs in "Pirates of Silicon Valley"
