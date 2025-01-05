@@ -12,12 +12,12 @@ def main():
 
     # Create chatbox where the user can type the text
     query = st.text_input("Enter your query:")
-
+    search_limit = st.slider("Select search limit:", min_value=1, max_value=8, value=3)
     markdown_path = "assets/sample_report_1.md"
 
     # If the user enters a query, proceed with the assistant logic
     if query:
-        assistant = Agent(query=query, search_limit=3, markdown_path=markdown_path)
+        assistant = Agent(query=query, search_limit=search_limit, markdown_path=markdown_path)
 
         # Generate a fine-tuned query
         finetuned_query = assistant.create_search_query()
@@ -50,13 +50,22 @@ def main():
 
         st.subheader("Markdown Code")
         st.code(markdown_content, language="markdown")
-        
+
         save = st.radio("Do you wish to save the report?", ("Yes", "No"))
         if save == "Yes":
             save_path = "assets/sample_save_1.db"
             db = Database(save_path)
             db.store_data(query=query, markdown_content=markdown_content, reference_links=all_links)
-            st.success(f"Report successfully saved to {save_path}")
+            st.success(f"Report successfully saved to {save_path}")         
+        
+        st.download_button(
+                label="Download Markdown Report",
+                data=markdown_content,
+                file_name="report.md",
+                mime="text/markdown"
+            )
+        
+
 
 if __name__ == "__main__":
     main()

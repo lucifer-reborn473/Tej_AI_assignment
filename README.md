@@ -2,6 +2,9 @@
 
 The following assignment involves developing an AI research agent with the following capabilities.
 
+## Demonstration
+
+
 ## Features and Capabilities
 
 ### 1. Web Search and Report Generation
@@ -37,7 +40,7 @@ Follow these steps to set up and run the project:
 1. Clone the repository:
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/lucifer-reborn473/Tej_AI_assignment.git
    ```
 2. Create a Conda environment:
 
@@ -65,6 +68,7 @@ Follow these steps to set up and run the project:
 
 - **Multithreading**: Implement a multithreading approach to enhance performance and efficiency.
 - **UI Enhancements**: Add more interactive and user-friendly features to the Streamlit app.
+- **Model Enhancement**: Using larger models such as larger llama models can enhance the functionality of a better final report.
 - **Extended Database Functionality**: Include advanced querying options for stored data.
 
 ---
