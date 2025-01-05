@@ -1,0 +1,12 @@
+beautifulsoup4
+bs4
+Markdown
+ollama
+pdfkit
+requests
+tqdm
+trafilatura
+typing_extensions
+urllib3
+weasyprint
+streamlit
