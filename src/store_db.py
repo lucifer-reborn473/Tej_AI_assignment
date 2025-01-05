@@ -9,7 +9,7 @@ class Database:
     A class to manage database operations for storing and retrieving response data.
     
     This class provides functionality to store and retrieve markdown content, queries,
-    reference links, and PDF paths in a SQLite database.
+    reference links in a SQLite database.
     
     Attributes:
         DB (str): The name/path of the SQLite database file.
@@ -35,7 +35,6 @@ class Database:
                     query TEXT NOT NULL,
                     markdown_content TEXT NOT NULL,
                     reference_links TEXT,  -- Stored as JSON string
-                    pdf TEXT NOT NULL,
                     timestamp TEXT DEFAULT CURRENT_TIMESTAMP
                 )
             ''')
@@ -45,7 +44,7 @@ class Database:
         finally:
             conn.close()
 
-    def store_data(self, query: str, markdown_content: str, reference_links: List[str], pdf: str) -> None:
+    def store_data(self, query: str, markdown_content: str, reference_links: List[str]) -> None:
         """
         Store response data in the database.
         
@@ -53,7 +52,6 @@ class Database:
             query (str): The search query or question.
             markdown_content (str): The markdown formatted content.
             reference_links (List[str]): List of reference URLs.
-            pdf (str): Path to the generated PDF file.
             
         Raises:
             TypeError: If any input parameter is of incorrect type.
@@ -66,8 +64,6 @@ class Database:
             raise TypeError("Markdown content must be a string")
         if not isinstance(reference_links, list) or not all(isinstance(link, str) for link in reference_links):
             raise TypeError("Reference links must be a list of strings")
-        if not isinstance(pdf, str):
-            raise TypeError("PDF path must be a string")
         
         # Convert reference_links to JSON
         reference_links_json = json.dumps(reference_links)
@@ -76,9 +72,9 @@ class Database:
             conn = sqlite3.connect(self.DB)
             cursor = conn.cursor()
             cursor.execute('''
-                INSERT INTO responses (query, markdown_content, reference_links, pdf)
-                VALUES (?, ?, ?, ?)
-            ''', (query, markdown_content, reference_links_json, pdf))
+                INSERT INTO responses (query, markdown_content, reference_links)
+                VALUES (?, ?, ?)
+            ''', (query, markdown_content, reference_links_json))
             conn.commit()
             print(f"Response data stored in {self.DB}")
         except sqlite3.Error as e:
